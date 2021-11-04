@@ -1,0 +1,121 @@
+
+body {
+  font-size: 1rem;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.card-body{
+  text-align: center;
+}
+
+.card-img-top{
+  border-radius: 1rem 1rem 0 0;
+}
+
+.order-card{
+  text-align: center;
+  width: 30%;
+  margin: 5% auto;
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .order-card{
+    text-align: center;
+    width: 80%;
+    margin: 12% auto;
+    border-radius: 1rem;
+  }
+}
+
+.order-title{
+  font-weight: 700;
+  margin: 5% auto;
+}
+
+.order-desc{
+  width: 70%;
+  margin: 1% auto;
+  font-size: 0.85rem;
+  color: hsl(224, 23%, 55%);
+}
+
+.plan-card{
+  border: none;
+  border-radius: 1rem;
+  margin: 7% 5%;
+  padding: 1.5% 3%;
+  background-color: hsl(225, 100%, 98%);
+}
+
+
+.plan-icon{
+  margin: 1rem auto;
+}
+
+.plan-desc{
+  margin: auto;
+  text-align: left;
+}
+
+.plan-desc h5{
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.plan-desc p{
+  font-size: 0.75rem;
+  margin-bottom: 0;
+  color: hsl(224, 23%, 55%);
+}
+
+.plan-change{
+  margin: auto;
+}
+
+.plan-change a{
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+}
+
+.button-container {
+  margin: 3% 5%;
+}
+
+.btn{
+  font-size: 0.75rem;
+  font-weight: 700;
+  border-radius: .7rem;
+  padding: 4% 1%;
+}
+
+.btn-primary{
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+
+}
+
+.btn-secondary{
+  color: hsl(224, 23%, 55%);
+  margin-top: 2%;
+  background-color: #ffffff00;
+  border: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+
+}
+
+.attribution a{
+  color: hsl(228, 45%, 44%);
+}
